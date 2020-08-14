@@ -1,0 +1,26 @@
+extends include/_base
+
+block title
+  title templete
+
+block append body
+  header 
+    div#nav-drawer
+      input#nav-input.nav-unshown(type="checkbox")
+      label#nav-open(for="nav-input")
+        span
+      label#nav-close.nav-unshown(for="nav-input")
+      div#nav-content 
+        nav
+          ul
+            li one
+            li twe
+            li three
+    div.title
+      h1 header 
+
+  nav left
+  main.center
+    img.dog-pug(src="images/dog-pug.png" alt="pug")
+  aside right
+  footer footer
